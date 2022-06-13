@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YDWYm2E8olS1nvB5/lH+AXxL1StZ+kbmISnHEi+CRmc=",
+  "Hash": "j7vVrIyQ+TMTw2SuNkrVnSDJmwpmuluoG7breKPA7E8=",
   "Source": "MyExperienceWebApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -7070,6 +7070,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon-192.png"
+    },
+    {
+      "Identity": "C:\\Users\\jenna\\Documents\\My Web Sites\\MyExperience\\MyExperience\\MyExperienceWebApp\\wwwroot\\images\\SoundProcessingExample_1.png",
+      "SourceId": "MyExperienceWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jenna\\Documents\\My Web Sites\\MyExperience\\MyExperience\\MyExperienceWebApp\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/SoundProcessingExample_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\SoundProcessingExample_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\jenna\\Documents\\My Web Sites\\MyExperience\\MyExperience\\MyExperienceWebApp\\wwwroot\\images\\SoundProcessingExample_2.png",
+      "SourceId": "MyExperienceWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jenna\\Documents\\My Web Sites\\MyExperience\\MyExperience\\MyExperienceWebApp\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/SoundProcessingExample_2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\SoundProcessingExample_2.png"
     },
     {
       "Identity": "C:\\Users\\jenna\\Documents\\My Web Sites\\MyExperience\\MyExperience\\MyExperienceWebApp\\wwwroot\\index.html",
