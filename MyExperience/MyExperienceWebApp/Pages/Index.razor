@@ -2,13 +2,20 @@
 
 <PageTitle>My Experience</PageTitle>
 
-<div class ="intro text-center">
-    <h1>Hello!</h1>
-    <h1>My Name is Jenna.</h1>
-    <small><small>I have high-functioning Autism.</small></small>
+<div class="page flex-column justify-content-end align-items-end">
+    <div class="main">
+        <div class ="intro">
+            <h1>Hello!</h1>
+            <h1>My Name is Jenna.</h1>
+            <div class="text-end mt-5">
+                <p>...and I have high-functioning Autism.</p>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div class="experience-description">
+<div class="page">
+    <div class="experience-description">
     @if (DataSourceItems != null)
     {
         @foreach (var item in DataSourceItems)
@@ -21,13 +28,16 @@
                 {
                      @foreach (var imagePath in item.ImagePaths)
                      {
-                         <img src="@(imagePath)"/>
+                         <img src="images\@(imagePath)" style="max-height:100px"/>
                      }
                 }
             </div>
         }
     }
 </div>
+</div>
+
+
 
 @code {
     public List<DataSourceItem> DataSourceItems;
