@@ -68,23 +68,18 @@ a, .btn-link {
     }
 
 body {
-    /*background-color: #354f52;*/ /*rosybrown*/
-    /*background-image: url('https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_1280.jpg');*/
-
+    background-color: #354f52;
     background-image: url('../images/transparentbackgroundflower.png');
     background-size: cover;
     background-repeat: no-repeat;
-    /*  background-color: #f4f4f4;*/
-    background-color: #746274;
     scroll-behavior: smooth;
     overflow-y: visible;
-    box-shadow: inset 0em 0em 1em 0em #5a1d528a;
-    filter: hue-rotate(200deg);
-   
+    box-shadow: inset 0em 1em 1em 0em;
+    background-blend-mode: multiply;
 }
 
 .text-lightseagreen{
-    color: lightseagreen !important;
+    color: turquoise !important;
 }
 
 
@@ -92,27 +87,29 @@ body {
 
 
 html {
-    background-color: black;
-    border-left:solid 30px;
-    border-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0e/Mobilechallenge-4k-wallpaper-close-up-807598.jpg') 100;
-    border-image-repeat:stretch;
+
+   /* border-top: solid 40px;
+    border-color: black;*/
+    /* border-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0e/Mobilechallenge-4k-wallpaper-close-up-807598.jpg') 100;
+    border-image-repeat:stretch;*/
 }
 
 .intro {
-    margin-bottom: 10em;
-    margin-right:5em;
+    /*margin-bottom: 5em;
+    margin-right:5em;*/
 }
 
     .intro h1 {
-        color: thistle;
-        font-size: 3.75em;
+        color: salmon;
+        font-size: 4em;
         font-family: 'Bungee Shade', cursive;
-        text-shadow: -1px 1px 1px mintcream;
+        text-shadow: -1px 1px 1px rebeccapurple;
         font-weight: bold;
     }
 
     .intro p {
-        border-top: 4px solid darkgoldenrod;
+        border-top: 8px solid;
+        border-image: url(https://pixahive.com/wp-content/uploads/2021/04/Colorful-background-illustration-405425-pixahive.jpg) 10;
         color: black;
         font-size: 2.5em;
         font-family: 'La Belle Aurore';
