@@ -67,28 +67,57 @@ a, .btn-link {
         height:100%;
     }
 
-html, body {
-    background-color: #354f52; /*rosybrown*/
+body {
+    /*background-color: #354f52;*/ /*rosybrown*/
+    /*background-image: url('https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_1280.jpg');*/
+
+    background-image: url('../images/transparentbackgroundflower.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*  background-color: #f4f4f4;*/
+    background-color: #746274;
+    scroll-behavior: smooth;
+    overflow-y: visible;
+    box-shadow: inset 0em 0em 1em 0em #5a1d528a;
+    filter: hue-rotate(200deg);
+   
+}
+
+.text-lightseagreen{
+    color: lightseagreen !important;
+}
+
+
+    /*background: linear-gradient(to bottom, url("https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_1280.jpg") 0%, black 100%);*/ /* W3C */
+
+
+html {
+    background-color: black;
+    border-left:solid 30px;
+    border-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0e/Mobilechallenge-4k-wallpaper-close-up-807598.jpg') 100;
+    border-image-repeat:stretch;
 }
 
 .intro {
-    margin-bottom: 12em;
-    margin-right:12em;
+    margin-bottom: 10em;
+    margin-right:5em;
 }
 
     .intro h1 {
-        color: #cad2c5;
-        font-size: 3em;
+        color: thistle;
+        font-size: 3.75em;
         font-family: 'Bungee Shade', cursive;
-        text-shadow: -4px 2px 3px #2f3e46;
+        text-shadow: -1px 1px 1px mintcream;
+        font-weight: bold;
     }
 
     .intro p {
-        color: chocolate;
+        border-top: 4px solid darkgoldenrod;
+        color: black;
         font-size: 2.5em;
         font-family: 'La Belle Aurore';
-        font-weight: bold;
-        text-shadow: -4px 2px 3px black;
+        /* font-weight: bold;*/
+        /*text-shadow: -4px 2px 3px black;*/
     }
 
 .page {
