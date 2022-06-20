@@ -2,25 +2,23 @@
 
 <PageTitle>My Experience</PageTitle>
 
-<div class="page flex-column justify-content-end align-items-end">
-    <div class="main">
-        <div class ="intro">
-            <h1>Hello!</h1>
-            <h1>My Name is Jenna<span class="text-lightseagreen">.</span></h1>
-            <div class="text-end mt-5">
-                <p style="background-color:white;"class="p-2">...and I have high-functioning <b>Autism</b>...</p>
-            </div>
+<div class="page flex-column justify-content-end align-items-end flower-page">
+    <div class ="intro">
+        <h1>Hello!</h1>
+        <h1>My Name is Jenna<span class="text-lightseagreen">.</span></h1>
+        <div class="text-center mt-5">
+            <p style="background-color:white;"class="p-2">...and I have <b>Autism</b>...</p>
         </div>
     </div>
 </div>
 
 <div class="page">
-    <div class="experience-description">
+    <div class="experience-description visually-hidden">
     @if (DataSourceItems != null)
     {
         @foreach (var item in DataSourceItems)
         {
-            <div class="card p-3 m-3">
+            <div class="card p-3 mb-3">
                 <h5>@((MarkupString)item.MainTextHtml)</h5>
                 <div class="mx-3">@((MarkupString)item.SubTextHtml)</div>
 
